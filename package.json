@@ -1,0 +1,31 @@
+{
+  "name": "pixi-8-spine",
+  "version": "0.0.1",
+  "description": "a game",
+  "author": "Enea Entertainment",
+  "homepage": "https://www.enea.sk",
+  "scripts": {
+    "build": "webpack --env target=www --mode=production",
+    "lint": "eslint \"src/**/*.ts\"",
+    "lintfix": "eslint \"src/**/*.ts\" --fix",
+    "start": "webpack serve --env target=www --mode=development --stats-error-details"
+  },
+  "devDependencies": {
+    "@pixi/spine-pixi": "^1.0.10",
+    "@typescript-eslint/eslint-plugin": "^7.2.0",
+    "@typescript-eslint/parser": "^7.2.0",
+    "copy-webpack-plugin": "^11.0.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-import": "^2.29.1",
+    "html-webpack-plugin": "^5.5.3",
+    "ignore-loader": "^0.1.2",
+    "pixi.js": "8.1.5",
+    "request": "^2.88.2",
+    "ts-loader": "^9.5.1",
+    "ts-prune": "^0.10.3",
+    "typescript": "^5.4.2",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
