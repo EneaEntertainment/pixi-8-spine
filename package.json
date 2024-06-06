@@ -11,7 +11,7 @@
     "start": "webpack serve --env target=www --mode=development --stats-error-details"
   },
   "devDependencies": {
-    "@pixi/spine-pixi": "^1.0.10",
+    "@pixi/spine-pixi": "^1.1.0",
     "@typescript-eslint/eslint-plugin": "^7.2.0",
     "@typescript-eslint/parser": "^7.2.0",
     "copy-webpack-plugin": "^11.0.0",
